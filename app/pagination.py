@@ -14,4 +14,3 @@ class CustomPagination(pagination.PageNumberPagination):
             'total_pages': self.page.paginator.num_pages,
             'results': data,
         })
-
